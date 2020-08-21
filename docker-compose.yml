@@ -32,6 +32,7 @@ services:
       - PGDATABASE=postgres
       - PGPASSWORD=password
       - PGPORT=5432
+      # - POSTGRES_PASSWORD=password
 
   client:
     stdin_open: true
